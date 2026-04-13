@@ -1,0 +1,79 @@
+# 📊 Online Retail Report
+
+## 🧾 Resumen Ejecutivo
+
+Este informe presenta un análisis del comportamiento de ventas 
+de un negocio de retail online, con el objetivo de identificar 
+patrones, oportunidades y recomendaciones estratégicas.
+
+---
+
+## 📈 Análisis de Ventas
+
+### Ventas Mensuales
+
+![Ventas Mensuales](../imagenes/monthly_sales.png)
+
+Se observa una tendencia variable con picos en ciertos meses, 
+indicando estacionalidad en el comportamiento de compra.
+
+---
+
+## 🌍 Ventas por País
+
+![Ventas por País](../imagenes/country_sales.png)
+
+La mayoría de ingresos proviene de un número reducido de países, 
+destacando una alta concentración geográfica.
+
+---
+
+## 🛍️ Productos Más Vendidos
+
+![Productos](../imagenes/top_products.png)
+
+Algunos productos dominan claramente las ventas, 
+lo que sugiere una fuerte preferencia del mercado.
+
+---
+
+## 👤 Clientes Más Valiosos
+
+![Clientes](../imagenes/top_customers.png)
+
+Un pequeño grupo de clientes genera la mayor parte de los ingresos, 
+indicando oportunidades de fidelización.
+
+---
+
+## 📅 Ventas por Día
+
+![Días](../imagenes/weekday_sales.png)
+
+Se identifican diferencias en la actividad según el día de la semana.
+
+---
+
+## 💡 Insights Clave
+
+- Existe estacionalidad en las ventas
+- Alta concentración de ingresos en pocos países
+- Clientes clave generan gran parte del revenue
+- Productos específicos dominan el mercado
+
+---
+
+## 🚀 Recomendaciones
+
+- Enfocar estrategias en clientes de alto valor
+- Optimizar inventario según demanda
+- Aprovechar temporadas altas
+- Expandir mercados
+
+---
+
+## 🎯 Conclusión
+
+El análisis permite identificar oportunidades claras de crecimiento 
+mediante el uso estratégico de los datos, mejorando la toma de decisiones 
+y la eficiencia del negocio.
