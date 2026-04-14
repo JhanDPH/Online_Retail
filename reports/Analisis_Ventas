@@ -2,9 +2,9 @@
 
 ## 🧾 Resumen Ejecutivo
 
-Este informe presenta un análisis del comportamiento de ventas 
-de un negocio de retail online, con el objetivo de identificar 
-patrones, oportunidades y recomendaciones estratégicas.
+Este informe presenta un análisis del comportamiento de ventas de un negocio de retail online, con el objetivo de identificar patrones clave, oportunidades de crecimiento y generar recomendaciones estratégicas basadas en datos.
+
+El análisis permite entender el comportamiento de clientes, productos y mercados, facilitando la toma de decisiones empresariales.
 
 ---
 
@@ -14,8 +14,10 @@ patrones, oportunidades y recomendaciones estratégicas.
 
 ![Ventas Mensuales](../imagenes/monthly_sales.png)
 
-Se observa una tendencia variable con picos en ciertos meses, 
-indicando estacionalidad en el comportamiento de compra.
+Se observa una tendencia variable con picos en determinados meses, lo que indica la presencia de estacionalidad en las ventas.
+
+💡 **Insight:**
+Las ventas aumentan en ciertos periodos, lo que sugiere oportunidades para campañas comerciales y planificación de inventario en temporadas altas.
 
 ---
 
@@ -23,8 +25,10 @@ indicando estacionalidad en el comportamiento de compra.
 
 ![Ventas por País](../imagenes/country_sales.png)
 
-La mayoría de ingresos proviene de un número reducido de países, 
-destacando una alta concentración geográfica.
+Los ingresos están altamente concentrados en un número reducido de países.
+
+💡 **Insight:**
+Existe una fuerte dependencia de mercados principales, lo que representa tanto una oportunidad como un riesgo estratégico.
 
 ---
 
@@ -32,8 +36,10 @@ destacando una alta concentración geográfica.
 
 ![Productos](../imagenes/top_products.png)
 
-Algunos productos dominan claramente las ventas, 
-lo que sugiere una fuerte preferencia del mercado.
+Un grupo reducido de productos domina el volumen de ventas.
+
+💡 **Insight:**
+Estos productos deben ser priorizados en inventario, marketing y estrategias comerciales.
 
 ---
 
@@ -41,8 +47,10 @@ lo que sugiere una fuerte preferencia del mercado.
 
 ![Clientes](../imagenes/top_customers.png)
 
-Un pequeño grupo de clientes genera la mayor parte de los ingresos, 
-indicando oportunidades de fidelización.
+Se evidencia que un pequeño grupo de clientes genera la mayor parte de los ingresos.
+
+💡 **Insight:**
+Se cumple el principio de Pareto (80/20), lo que resalta la importancia de estrategias de fidelización.
 
 ---
 
@@ -50,30 +58,83 @@ indicando oportunidades de fidelización.
 
 ![Días](../imagenes/weekday_sales.png)
 
-Se identifican diferencias en la actividad según el día de la semana.
+Se identifican variaciones en el comportamiento de compra según el día de la semana.
+
+💡 **Insight:**
+Existen días con menor actividad que pueden ser aprovechados mediante promociones.
+
+---
+
+## 👤 Segmentación de Clientes (RFM)
+
+Se aplicó la metodología RFM para clasificar a los clientes según:
+
+* Recency (Recencia)
+* Frequency (Frecuencia)
+* Monetary (Valor monetario)
+
+Segmentos identificados:
+
+* **VIP:** Clientes de alto valor
+* **Leales:** Compradores frecuentes
+* **Regulares:** Actividad moderada
+* **Perdidos:** Clientes inactivos
+
+💡 **Insight:**
+Los clientes VIP representan una oportunidad clave para maximizar ingresos y deben ser el foco principal de retención.
+
+---
+
+## 🌍 Segmentación de Países
+
+Se realizó una segmentación estratégica basada en el aporte de ventas:
+
+* **Top:** Mayor contribución
+* **High:** Alto rendimiento
+* **Medium:** Rendimiento medio
+* **Low:** Bajo impacto
+
+💡 **Insight:**
+Permite identificar mercados prioritarios y oportunidades de expansión.
+
+---
+
+## 📊 Dashboard Interactivo
+
+Se desarrolló un dashboard en Streamlit para explorar los datos de forma interactiva.
+
+Incluye:
+
+* Tendencias de ventas
+* Segmentación de clientes
+* Segmentación de países
+* Análisis de productos
 
 ---
 
 ## 💡 Insights Clave
 
-- Existe estacionalidad en las ventas
-- Alta concentración de ingresos en pocos países
-- Clientes clave generan gran parte del revenue
-- Productos específicos dominan el mercado
+* Existe estacionalidad en las ventas
+* Alta concentración de ingresos en pocos países
+* El 20% de los clientes genera la mayor parte de ingresos
+* Los clientes VIP representan el mayor valor estratégico
+* Algunos mercados tienen bajo aprovechamiento
 
 ---
 
 ## 🚀 Recomendaciones
 
-- Enfocar estrategias en clientes de alto valor
-- Optimizar inventario según demanda
-- Aprovechar temporadas altas
-- Expandir mercados
+* Enfocar estrategias en clientes VIP y leales
+* Optimizar inventario de productos más vendidos
+* Expandir presencia en mercados con potencial
+* Diseñar campañas en periodos de baja actividad
+* Implementar estrategias de retención
 
 ---
 
 ## 🎯 Conclusión
 
-El análisis permite identificar oportunidades claras de crecimiento 
-mediante el uso estratégico de los datos, mejorando la toma de decisiones 
-y la eficiencia del negocio.
+El análisis permite identificar oportunidades claras de crecimiento mediante el uso estratégico de los datos.
+
+La segmentación de clientes y países, junto con el uso de dashboards interactivos, facilita una toma de decisiones más eficiente, orientada a maximizar ingresos y optimizar recursos.
+

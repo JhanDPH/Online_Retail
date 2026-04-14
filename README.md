@@ -1,8 +1,8 @@
-# 📊 Online Retail Analysis Project
+# 🛒 Online Retail Analysis Project
 
-## 🧾 Descripción
+## 📌 Descripción
 
-Este proyecto tiene como objetivo analizar el comportamiento de ventas de un negocio de retail online, utilizando técnicas de análisis de datos para identificar patrones, tendencias y oportunidades de mejora en el negocio.
+Este proyecto tiene como objetivo analizar el comportamiento de ventas de un negocio de retail online utilizando técnicas de análisis de datos para identificar patrones, tendencias y oportunidades de mejora en el negocio.
 
 El análisis se basa en un dataset real que contiene información sobre transacciones, productos, clientes y países.
 
@@ -10,69 +10,125 @@ El análisis se basa en un dataset real que contiene información sobre transacc
 
 ## 🎯 Objetivos del Proyecto
 
-- Analizar la evolución de las ventas en el tiempo
-- Identificar los países con mayor generación de ingresos
-- Detectar los productos más vendidos
-- Encontrar los clientes más valiosos
-- Generar recomendaciones estratégicas basadas en datos
+* Analizar la evolución de las ventas en el tiempo
+* Identificar los países con mayor generación de ingresos
+* Detectar los productos más vendidos
+* Segmentar clientes según su comportamiento (RFM)
+* Generar insights estratégicos para el negocio
 
 ---
 
 ## 🗂️ Estructura del Proyecto
 
+```
 online_retail_project/
 │
-├── data/ # Dataset original
-├── notebooks/ # Análisis en Jupyter Notebook
-├── images/ # Gráficas generadas
-├── reports/ # Reporte final
-├── src/ # Funciones reutilizables
+├── data/              # Dataset original
+├── notebooks/         # Análisis exploratorio (EDA)
+├── images/            # Gráficas generadas
+├── reports/           # Reporte final de análisis
+├── app/               # Dashboard en Streamlit
+├── src/               # Funciones reutilizables
 ├── README.md
 └── environment.yml
+```
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-- Python 🐍
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+* Python 🐍
+* Pandas
+* NumPy
+* Matplotlib / Seaborn
+* Plotly
+* Streamlit
 
 ---
 
-## 📊 Análisis Realizado
+## 📊 Dashboard Interactivo
 
-El proyecto incluye:
+El proyecto incluye un dashboard interactivo desarrollado en Streamlit que permite explorar:
 
-- Limpieza de datos
-- Análisis exploratorio (EDA)
-- Visualización de datos
-- Identificación de insights clave
-- Recomendaciones de negocio
+* 📈 Tendencia de ventas
+* 🌍 Segmentación de países
+* 👤 Segmentación de clientes (RFM)
+* 📦 Productos más vendidos
 
-## 📊 Ejemplo de Análisis
+imagenes/Dashboard_interactivo.png
 
-![Ventas Mensuales](Online_Retail/imagenes/monthly_sales.png)
+### ▶️ Ejecutar el dashboard
 
----
+```bash
+streamlit run app/app.py
+```
 
-## 📈 Principales Insights
-
-- Existe estacionalidad en las ventas
-- Alta concentración de ingresos en pocos países
-- Un pequeño grupo de clientes genera la mayor parte de las ventas
-- Algunos productos dominan la demanda
+```link
+http://localhost:8501
+```
 
 ---
 
-## 🚀 Recomendaciones
+## 💡 Insights Principales
 
-- Enfocar estrategias en clientes de alto valor
-- Optimizar inventario según productos más vendidos
-- Implementar campañas en temporadas clave
-- Expandir el mercado a nuevos países
+* Reino Unido concentra la mayor parte de los ingresos
+* Un pequeño grupo de clientes genera la mayor parte de las ventas (principio de Pareto)
+* Existen clientes VIP con alto valor económico
+* Algunos países presentan bajo impacto comercial
+* Las ventas presentan patrones temporales claros
+
+---
+
+## 🚀 Recomendaciones de Negocio
+
+* Enfocar estrategias en clientes VIP y leales
+* Optimizar inventario de productos más vendidos
+* Expandir presencia en países con potencial de crecimiento
+* Implementar campañas en períodos de alta demanda
+* Diseñar estrategias de retención para clientes perdidos
+
+---
+
+## 📄 Reporte
+
+El análisis detallado se encuentra en la carpeta:
+
+```
+reports/Analisis_Ventas
+```
+
+Incluye:
+
+* Análisis exploratorio
+* Segmentación RFM
+* Segmentación de países
+* Conclusiones estratégicas
+
+---
+
+## 🎯 Resultados del Proyecto
+
+Este proyecto permitió:
+
+* Identificar mercados clave
+* Detectar clientes de alto valor
+* Analizar patrones de compra
+* Apoyar la toma de decisiones basada en datos
+
+👨‍💻 Autor
+
+Jhan Daniel Parra
+
+---
+
+## ⭐ Nota Final
+
+Este proyecto forma parte de mi portafolio de análisis de datos y demuestra habilidades en:
+
+* Análisis exploratorio de datos
+* Visualización
+* Segmentación de clientes
+* Desarrollo de dashboards
 
 ---
 
@@ -107,7 +163,3 @@ jupyter notebook
 - Segmentación de clientes (RFM)
 - Dashboard interactivo
 - Modelos de predicción de ventas
-
-👨‍💻 Autor
-
-- Jhan Daniel
